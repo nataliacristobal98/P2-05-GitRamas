@@ -13,7 +13,6 @@ public class Practica3 {
 
         if (estructura == 1) {
             System.out.println("Elija el número de ejercicio que quieras resolver:");
-            System.out.println("2-Sueldo anual e impuestos");
             System.out.println("5-Triángulo válido");
             System.out.println("6-Fiesta de marmotas");
             System.out.println("7-Notas");
@@ -25,17 +24,6 @@ public class Practica3 {
             int ejercicio = sc.nextInt();
 
             switch (ejercicio) {
-                case 2:
-                    //Si el sueldo introducido es > a 9000 daremos unas instrucciones, usamos solo un if y un else
-                    System.out.println("Introduce el sueldo anual:");
-                    int sueldo = sc.nextInt();
-                        if (sueldo>9000) {
-                            System.out.println("Se debe pagar impuestos");
-                        } else {
-                            System.out.println("No se debe pagar impuestos");
-                        }
-                    break;
-
                 case 5:
                     /* Aqui usaremos el else if para comprobar que todos los resultados que puede haber con la suma
                     de las variantes escaneadas con correctos o no */
