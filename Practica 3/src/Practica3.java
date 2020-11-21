@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 public class Practica3 {
     public static void main(String [] args) {
         //Práctica realizada por Natalia Cristóbal, curso 1A de DAW
@@ -13,7 +13,6 @@ public class Practica3 {
 
         if (estructura == 1) {
             System.out.println("Elija el número de ejercicio que quieras resolver:");
-            System.out.println("1-Par o impar");
             System.out.println("2-Sueldo anual e impuestos");
             System.out.println("5-Triángulo válido");
             System.out.println("6-Fiesta de marmotas");
@@ -26,18 +25,6 @@ public class Practica3 {
             int ejercicio = sc.nextInt();
 
             switch (ejercicio) {
-                case 1:
-                    //En este caso comprobaremos si el número es par mediante el resto que dé al dividir entre 2
-                    System.out.println("Introduce un número:");
-                    int n1 = sc.nextInt();
-                    int resto = n1%2;
-                        if (resto == 0) {
-                            System.out.println("El número es par");
-                        } else {
-                            System.out.println("El número es impar");
-                        }
-                    break;
-
                 case 2:
                     //Si el sueldo introducido es > a 9000 daremos unas instrucciones, usamos solo un if y un else
                     System.out.println("Introduce el sueldo anual:");
